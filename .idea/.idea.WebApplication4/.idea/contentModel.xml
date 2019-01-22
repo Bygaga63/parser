@@ -28,8 +28,6 @@
           <e p="History.cshtml.cs" t="Include" />
           <e p="Index.cshtml" t="Include" />
           <e p="Index.cshtml.cs" t="Include" />
-          <e p="Privacy.cshtml" t="Include" />
-          <e p="Privacy.cshtml.cs" t="Include" />
           <e p="Report.cshtml" t="Include" />
           <e p="Report.cshtml.cs" t="Include" />
           <e p="Shared" t="Include">
@@ -43,7 +41,13 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="README.md" t="Include" />
+        <e p="Service" t="Include">
+          <e p="Parser.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="LinkViewModel.cs" t="Include" />
+        </e>
         <e p="WebApplication4.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
