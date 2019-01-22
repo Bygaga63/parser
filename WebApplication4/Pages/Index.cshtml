@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Запуск";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Message</h1>
+    <div>
+        <div class="input-group mb-3">
+            <input type="text" id="url" name="url" class="form-control" placeholder="адрес страницы" aria-label="адрес страницы" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Проверить</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="display: flex; justify-content: space-between">
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="hrefLink">
+            <label class="custom-control-label" for="hrefLink">Ссылки переходов</label>
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="imgLink">
+            <label class="custom-control-label" for="imgLink">Адреса изображений</label>
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="jsAndCssLink">
+            <label class="custom-control-label" for="jsAndCssLink">Адреса javascript и css файлов</label>
+        </div>
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="h1Tags">
+            <label class="custom-control-label" for="h1Tags">Содержимое тегов H1</label>
+        </div>
+    </div>
+
+
+</div>
